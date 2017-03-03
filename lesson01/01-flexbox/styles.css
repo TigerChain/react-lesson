@@ -1,0 +1,31 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+
+.item-1-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-1:{
+	align-self: auto
+}
+.item-2{
+	align-self: flex-start;
+}
+.item-3{
+	align-self: flex-star;
+}
+.item-4{
+	align-self: center;
+}
+.item-5{
+	align-self: baseline;
+}
+.item-6{
+	align-self: stretch;
+}
