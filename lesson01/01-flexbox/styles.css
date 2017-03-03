@@ -54,14 +54,101 @@
   flex-flow: row nowrap;
 }
 
+/**justify-content: flex-start;**/
+.justify-content-flex-start{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/**justify-content: flex-end;**/
+.justify-content-flex-end{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/**justify-content: center;**/
+.justify-content-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/** justify-content:space-between;  **/
+.justify-content-space-between{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+/**justify-content: space-around;**/
+.justify-content-space-around{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/**align-items: flex-start;**/
+.align-items-flex-start{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/**align-items: flex-end;**/
+.align-items-flex-end{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+/**align-items: center;**/
+.align-items-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;;
+}
 
 
 
+/**
+ * 为了很直观的看baseLine属性，我们给每个item设置不同的高度css
+ */
 
+.item-1-baseline {
+  height: 60px;
+}
 
+.item-3-baseline {
+  height: 100px;
+}
 
+.item-4-baseline {
+  height: 123px;
+}
 
+.item-5-baseline {
+  height: 154px;
+}
 
+.item-6-baseline {
+  height: 138px;
+}
+
+/**align-items: baseline;**/
+.align-items-baseline{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+/**align-items: stretch;**/
+.align-items-stretch{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
 
 
 /*.item-1-1{
