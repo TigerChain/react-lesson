@@ -2,11 +2,21 @@
 .container{
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
+}
+/**lex-direction: row 属性**/
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+/**flex-direction: row-reverse**/
+.row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 
-.item-1-1{
+/*.item-1-1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -29,4 +39,4 @@
 }
 .item-6{
 	align-self: stretch;
-}
+}*/
