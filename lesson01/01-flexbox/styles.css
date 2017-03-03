@@ -1,3 +1,4 @@
+/*容器的根布局样式**/
 .container{
 	display: flex;
 	flex-direction: row;
