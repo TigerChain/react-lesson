@@ -14,6 +14,54 @@
   display: flex;
   flex-direction: row-reverse;
 }
+/**flex-direction: column**/
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+/**flex-direction: column-reverse**/
+.column-reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/**flex-wrap: nowrap**/
+.flex-wrap-nowrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/**flex-wrap: wrap**/
+.flex-wrap-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/**flex-wrap: wrap-reverse**/
+.flex-wrap-wrap-reverse{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+
+/*flex-flow**/
+.flex-flow{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*.item-1-1{
