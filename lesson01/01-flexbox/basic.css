@@ -20,6 +20,12 @@ body{
   height: 300px;
 }
 
+.alignContentHieght{
+	background-color: red;
+	padding: 10px;
+	height: 350px;
+}
+
 .item{
 	background-color: orange;
 	color: #eee;
