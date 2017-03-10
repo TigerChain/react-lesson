@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello React!</title>
+
+  <script src="./build/react.js"></script>
+  <script src="./build/react-dom.js"></script>
+  <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+</head>
+<body>
+
+
+<div id="example"></div>
+
+<!-- 第一种最原始的写法 -->
+  <!--  <script type="text/babel">
+      ReactDOM.render(
+      // <h1>hello world</h1>,
+      <HelloWorld/>,
+      document.getElementById('example')
+      );
+    </script> -->
+
+
+
+
+<script type="text/babel">
+// 以ES5为例子将HelloWorkd组件化
+//使用ES5的写法
+  /**
+   var HelloWord = React.createClass({
+     render:function(){
+       return(
+         <div>
+           <h1>hello world ES5</h1>
+         </div>
+       ) ;
+     }
+   });
+   */
+
+   //使用ES6的写法
+   class HelloWord extends React.Component{
+     render(){
+       return(
+         <div>
+           <h1>hello world  ES6</h1>
+         </div>
+       );
+     }
+   }
+
+
+   ReactDOM.render(
+   <HelloWord/>,
+   document.getElementById('example')
+   );
+
+</script>
+
+</body>
+</html>
