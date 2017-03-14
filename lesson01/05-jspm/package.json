@@ -1,0 +1,25 @@
+{
+  "name": "05-jspm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TigerChain",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.52"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^15.4.2",
+      "react-dom": "npm:react-dom@^15.4.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

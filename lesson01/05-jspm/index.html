@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jspm Demo</title>
+</head>
+<body>
+
+<div id="app"></div>
+
+<!-- 导入system.js-->
+<script src="jspm_packages/system.js"></script>
+<!-- 导入config.js-->
+<script src="config.js"></script>
+
+<!-- 打包的时候使用这个，如果没有使用jspm bundle那么可以把这个注释掉 -->
+<script src="bundle.js"></script>
+
+<script>
+    System.import('./app/main');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+module.exports = require("npm:encoding@0.1.12/lib/encoding.js");
