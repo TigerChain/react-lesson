@@ -1,1 +1,0 @@
-module.exports = require("npm:whatwg-fetch@2.0.3/fetch.js");
