@@ -8,3 +8,6 @@
 * 1、git clone https://github.com/githubchen001/react-lesson.git
 * 2、cd lesson01/06-webpack/对应的子项目目录
 * 3、在命令行直接运行npm start，则会在控制台上显示要运行的地址，直接在浏览器中输入即可看结果
+
+
+### 3、本节demo对应的文章地址:[http://www.jianshu.com/p/732c4d501668](http://www.jianshu.com/p/732c4d501668)
