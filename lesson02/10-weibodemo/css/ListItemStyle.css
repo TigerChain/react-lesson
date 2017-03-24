@@ -1,0 +1,47 @@
+
+.item{
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+}
+/*顶部view样式*/
+.topRightView{
+  display: flex;
+  flex-direction: column;
+  flex:1
+}
+/*昵称和发送时间样式*/
+.nickNameAndSendTime{
+  display: flex;
+  justify-content: space-between; /**主轴的对齐方式*/
+}
+
+
+/*横线样式*/
+.hrStyle{
+  margin-top: -1px;
+}
+.ulStyle{
+  display:flex;
+  height: 40px;
+  align-items: center;
+  margin-left: -40px;
+}
+/*点赞 转发*/
+.liStyle{
+  display: flex;
+  color: orange;
+  flex: 1.0;
+  font-size: 16px;
+  justify-content: center;
+}
+.commentViewStyle{
+  background-color: #fff;
+  margin-top: -17px;
+}
+
+.shuxian{
+  height: 20px;
+  width: 1px;
+  background-color: grey;
+}
