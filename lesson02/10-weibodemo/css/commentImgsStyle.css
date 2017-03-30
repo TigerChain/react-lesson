@@ -1,0 +1,18 @@
+
+.imgStyle{
+  width: 100px;
+  height: 100px;
+}
+.ulstyle{
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.liStyle{
+  list-style:none;
+  float:left;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-self: center;
+}

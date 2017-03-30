@@ -1,0 +1,70 @@
+/*根样式*/
+.rootView{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 10px;
+  margin-top: -15px;
+}
+/*评论头头像，文本框，按钮样式*/
+.headView{
+  display: flex;
+  background: #fff;
+}
+/*昵称样式*/
+.nickNameStyle{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+/**
+ * 评论列表样式
+ */
+.commentListStyle{
+  padding-left: 55px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+/**
+ * 评论内容样式
+ */
+.commentContentStyle{
+  display: flex;
+  flex:1;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+.img{
+  width: 35px;
+  height: 35px;
+}
+/**
+ * 评论内容样式
+ */
+.textareaViewStyle{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  margin-bottom: 10px;
+}
+
+/**
+ * 评论按钮样式
+ */
+.commentBtnStyle{
+  width: 100px;
+  background: #ff8146;
+  margin-top: 10px;
+  border: 1px solid #f77c3d;
+  color: #fff;
+  height: 25px;
+  font-size: 14px;
+}
+/**
+ * 时间字体大小
+ */
+.timeSize{
+  font-size: 14px;
+}
