@@ -16,6 +16,13 @@
   justify-content: space-between; /**主轴的对齐方式*/
 }
 
+/**头像列表组件*/
+.imgStyle{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
 
 /*横线样式*/
 .hrStyle{
