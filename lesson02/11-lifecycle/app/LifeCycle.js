@@ -18,7 +18,9 @@ export default class LifeCycle extends Component {
       name:'TigerChain'
     }
   }
-
+  /**
+   * 在挂载之前调用
+   */
   componentWillMount(){
     console.log("~~ componentWillMout ~~");
 
@@ -35,12 +37,24 @@ export default class LifeCycle extends Component {
 
         <button onClick={this._setState.bind(this)}>setState</button><p/>
 
-
         <button onClick={this._forceWithUpdate.bind(this)}>forceWithUpdate</button><p/>
-        {this.state.name}
+
+        <button onClick={this._unmout.bind(this)}>unmout</button><p/>
+
+        <button onClick={this.koukou.bind(this)}>parentChangeProps</button> <p/>
+
     </div>);
   }
+  /**
+   * 测试 ComponentWillReceiveProps 方法
+   */
+  koukou(){
+    this.props.testComponentWillReceiveProps() ;
+  }
 
+  /**
+   * 在挂载之后调用
+   */
   componentDidMount(){
     console.log("~~ componentDidMout ~~");
     alert("~~ componentDidMout ~~") ;
@@ -56,6 +70,16 @@ export default class LifeCycle extends Component {
       return true ;
   }
 
+  /**
+   * props 改变的时候调用
+   */
+  componentWillReceiveProps(nextProps){
+    console.log("~~ componentWillReceiveProps ~~");
+    alert("~~ componentWillReceiveProps ~~") ;
+  }
+  /**
+   * shouldComponentUpdate 返回 true 的时候 将要更新
+   */
   componentWillUpdate(nextProps, nextState){
     console.log("componentWillUpdate nextState",nextState);
     console.log(this.state.name);
@@ -64,15 +88,27 @@ export default class LifeCycle extends Component {
     alert("~~ componentWillUpdate ~~") ;
   }
 
-
+  /**
+   * 组件已经更新
+   */
   componentDidUpdate(){
     console.log("~~ componentDidUpdate ~~");
     alert("~~ componentDidUpdate ~~") ;
   }
 
+  /**
+   * 组件将要卸载
+   */
   componentWillUnmount(){
     console.log("~~ componentWillUnmount ~~");
     alert("~~ componentWillUnmount ~~") ;
+  }
+
+  /**
+   * 组件卸载的方法
+   */
+  _unmout(){
+    this.props.umout();
   }
 
   _forceWithUpdate(){
@@ -87,6 +123,9 @@ export default class LifeCycle extends Component {
     })
   }
 
+  /**
+   * 修改 state 方法
+   */
   _setState(){
     var that = this ;
     if((that.state.name === "TigerChain1") || (that.state.name="TigerChain")){
@@ -96,6 +135,3 @@ export default class LifeCycle extends Component {
     }
   }
 }
-
-LifeCycle.propTypes = {
-};
