@@ -1,0 +1,21 @@
+{
+  "name": "eventsys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "TigerChain",
+  "license": "ISC",
+  "scripts":{
+    "start":"webpack-dev-server --progress --port 8888"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
