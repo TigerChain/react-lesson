@@ -26,6 +26,6 @@
 
 [jianshusvg]: https://img.shields.io/badge/简书-LifeCycle-yellowgreen.svg
 
-[jianshu]:http://www.jianshu.com/u/3106a1da401f
+[jianshu]:http://www.jianshu.com/p/e3d1ecfb6312
 
 
