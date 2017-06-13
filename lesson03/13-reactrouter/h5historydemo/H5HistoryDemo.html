@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> H5 HistoryDemo </title>
+</head>
+<body>
+
+  <ul>
+    <li><a onclick="home()">首页</a></li>
+    <li><a onclick="about()">关于</a></li>
+    <li><a onclick="mine()">我的</a></li>
+  </ul>
+
+  <div id="showContent" style="height:250px;width:200px;background:green">home</div>
+
+<script>
+
+function home() {
+
+history.pushState({name:'home',id:1}, null, "?page=home");
+
+showCard("home");
+}
+
+
+function about() {
+history.pushState({
+  id:2,
+  name:"about"
+},null,"?page=about") ;
+
+showCard("about");
+}
+
+
+function mine() {
+
+history.pushState({
+  id:3,
+  name:"mine"
+},null,"?name=chen&age=30") ;
+
+showCard("mine");
+}
+
+function showCard(name) {
+   document.getElementById("showContent").innerHTML = name;
+}
+
+//点击返回键盘的时候 显示历史
+window.onpopstate = function (event) {
+  var content = "";
+  if(event.state) {
+    content = event.state.name;
+  }
+  showCard(content);
+}
+
+</script>
+</body>
+</html>

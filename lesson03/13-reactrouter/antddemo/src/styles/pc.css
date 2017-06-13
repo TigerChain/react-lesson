@@ -1,0 +1,46 @@
+
+.header{
+  height: 100px;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-right: 25px;
+}
+
+.logo{
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo{
+  align-items: center;
+  display: flex;
+}
+
+
+.logo span{
+  color: #70b1f2;
+  font-size: 16px;
+  margin-left: 8px;
+}
+.shuxian{
+  margin-left: 100px;
+  margin-right: 25px;
+}
+
+#searchstyle{
+   border: none;
+    zoom:1;
+}
+
+.navright{
+  display: flex;
+  align-items: center;
+}
+.slectLangueButton{
+  margin-left: 10px;
+}
