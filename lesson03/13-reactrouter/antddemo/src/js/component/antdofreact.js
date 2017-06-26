@@ -2,12 +2,25 @@ import React, { Component, PropTypes } from 'react';
 
 import CommonHead from './commonhead.js' ;
 
+
+//模拟数据
+const datas = [
+  {"name":"特性"},
+  {"name":"支持环境"},
+  {"name":"版本"},
+  {"name":"示例"},
+  {"name":"谁在使用"},
+  {"name":"如何贡献"},
+  {"name":"社区互助"}
+];
+
 export default class AntdofReact extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
+
     return (
       <div>
         <article className="markdown">
@@ -126,36 +139,20 @@ export default class AntdofReact extends Component {
  * @return {[type]} [description]
  */
   _renderTocView(){
+
+    let liview = []
+    for (var i = 0; i < datas.length; i++) {
+      liview.push(
+        <li key={i}>
+          <a href={"#"+datas[i].name}>{datas[i].name}</a>
+        </li>
+      )
+    }
+
     return(
       <section className="toc">
         <ul>
-          <li>
-            <a href="#特性" title="特性">特性</a>
-          </li>
-          <li>
-            <a href="#支持环境" title="支持环境">支持环境</a>
-          </li>
-          <li>
-            <a href="#版本" title="版本">版本</a>
-          </li>
-          <li>
-            <a href="#安装" title="安装">安装</a>
-          </li>
-          <li>
-            <a href="#示例" title="示例">示例</a>
-          </li>
-          <li>
-            <a href="#链接" title="链接">链接</a>
-          </li>
-          <li>
-            <a href="#谁在使用" title="谁在使用">谁在使用</a>
-          </li>
-          <li>
-            <a href="#如何贡献" title="如何贡献">如何贡献</a>
-          </li>
-          <li>
-            <a href="#社区互助" title="社区互助">社区互助</a>
-          </li>
+          {liview}
         </ul>
       </section>
     ) ;

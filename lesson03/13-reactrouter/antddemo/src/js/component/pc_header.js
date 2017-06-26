@@ -10,6 +10,8 @@ import {
 
 import ReactSVG from 'react-svg'
 
+
+// 头部组件
 export default class PCHeader extends Component {
 
   constructor(props) {

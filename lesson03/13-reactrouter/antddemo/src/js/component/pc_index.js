@@ -4,6 +4,7 @@ import PCHeader from './pc_header.js' ;
 import PCMAIN from './pc_main.js' ;
 import PCFooter from './pc_footer.js' ;
 
+//首页
 export default class PCIndex extends Component {
   constructor(props) {
     super(props);

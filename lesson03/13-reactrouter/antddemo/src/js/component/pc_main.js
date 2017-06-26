@@ -9,6 +9,7 @@ import {Link} from 'react-router' ;
 
 const MenuItemGroup = Menu.ItemGroup;
 
+// 内容组件
 export default class PCMain extends Component {
   constructor(props) {
     super(props);
