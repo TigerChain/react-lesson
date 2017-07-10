@@ -20,7 +20,7 @@ import CustomTheme from './component/customtheme.js' ;
 //引入更新日志组件
 import UpDateLog from './component/updatelog.js' ;
 
-
+// Main 也可以抽取成一个 路由组件
 class Main extends React.Component {
   render(){
     return(
@@ -35,7 +35,6 @@ class Main extends React.Component {
           <Route path="react/changelog-cn" component={UpDateLog}></Route>
         </Route>
       </Router>
-
     ) ;
   }
 }
