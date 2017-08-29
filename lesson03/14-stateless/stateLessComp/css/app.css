@@ -1,0 +1,15 @@
+.root{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.imgStyle{
+  width: 100px;
+  height: 100px;
+}
+.textStyle{
+  font-size: 30px;
+  color: red;
+}
