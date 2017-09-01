@@ -22,6 +22,8 @@
 * 13、[React系列之--微博Demo 02 终结篇](http://www.jianshu.com/p/9fddf666b718)
 * 14、[React系列之--组件的生命周期](http://www.jianshu.com/p/e3d1ecfb6312)
 * 15、[React系列之--React 事件系统](http://www.jianshu.com/p/99dc37f9edf3)
+* 16、[React系列之--React 路由](http://www.jianshu.com/p/b55cf53e633a)
+* 17、[Reac系列之--无状态组件你真的知道吗？](http://www.jianshu.com/p/980abadd8a18)
 
 
 ### 关于我
@@ -33,6 +35,10 @@ github: [https://github.com/githubchen001](https://github.com/githubchen001)
 
 博客: [http://githubchen001.github.io](http://githubchen001.github.io)
 
+我的公号：扫描二维码关注
+
+![myqrcode](./imgs/myqrcode.jpg)
+
 # 联系我
 
 [![jianshu][jianshusvg]][jianshu]
@@ -41,3 +47,4 @@ github: [https://github.com/githubchen001](https://github.com/githubchen001)
 [jianshusvg]: https://img.shields.io/badge/简书-TigerChain-brightgreen.svg
 
 [jianshu]:http://www.jianshu.com/u/3106a1da401f
+
