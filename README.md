@@ -33,6 +33,8 @@ github: [https://github.com/githubchen001](https://github.com/githubchen001)
 
 简书: [http://www.jianshu.com/u/3106a1da401f](http://www.jianshu.com/u/3106a1da401f)
 
+掘金：[https://juejin.im/user/568bd28960b2b60f66054a67/posts](https://juejin.im/user/568bd28960b2b60f66054a67/posts)
+
 博客: [http://githubchen001.github.io](http://githubchen001.github.io)
 
 我的公号：扫描二维码关注
